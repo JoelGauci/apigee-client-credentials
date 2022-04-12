@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage name="AM-RemoveAuthorizationHeader">
+    <Remove>
+        <Headers>
+            <Header name="authorization"/>
+        </Headers>
+    </Remove>
+    <Set>
+        <Headers>
+            <Header name="authorization">Basic {encodeBase64(flow.basicauth)}</Header>
+        </Headers>
+    </Set>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

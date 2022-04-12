@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SetOAuthV2Info name="Set-OAuth-v20-Info-1">
+    <AccessToken ref="apigee.access_token"/>
+    <Attributes>
+        <Attribute name="workday.access_token" ref="workday.access_token"/>
+    </Attributes>
+</SetOAuthV2Info>

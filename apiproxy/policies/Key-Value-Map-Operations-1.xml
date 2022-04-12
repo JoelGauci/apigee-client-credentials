@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations name="Key-Value-Map-Operations-1" mapIdentifier="credentials">
+    <Get assignTo="private.client_id">
+        <Key>
+            <Parameter>client_id</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="private.client_secret">
+        <Key>
+            <Parameter>client_secret</Parameter>
+        </Key>
+    </Get>
+    <Scope>environment</Scope>
+</KeyValueMapOperations>

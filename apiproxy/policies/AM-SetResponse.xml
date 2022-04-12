@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage continueOnError="false" enabled="true" name="AM-SetResponse">
+    <Set>
+        <Payload contentType="application/json">{
+        "access_token":"{apigee.access_token}",
+        "grant_type":"client_credentials",
+        "expiry": 1800
+        }</Payload>
+    </Set>
+    <AssignTo createNew="true" transport="http" type="response"/>
+</AssignMessage>
